@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+    background: rgb(44, 43, 43);
+    font-family: sans-serif;
+}
+.container{
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+header {    
+    background: rgb(90, 90, 90); 
+}
+.shopName{
+    display: flex;
+    align-items: center; 
+    font-size: 23px;
+    line-height: 25px;
+    color: #f26376;
+}
+.shopName>h3{
+    padding-left: 10px;
+}
+.searchAndCart{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.searchForm{
+    margin-right: 20px;
+}
+.product-title {
+    align-self: center;
+}
+.productImg {
+    border-radius: 5px;
+    width: 85%;
+    align-self: center;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: #f26376;
+}
+.product-item {
+    display: flex;
+    flex-direction: column; 
+}
+
+.price{
+    align-self: center;
+}
+.btn-cart {
+    font-size: 16px;
+    height: inherit;
+    border: none;
+    color: #ffffff;
+    background: #f16d7f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;   
+    letter-spacing: 0.5px;
+}
+.btnCart:hover{
+    color: rgb(31, 31, 31);
+}
+.buy-btn {
+    background: none;
+    align-self: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f26376;
+    padding: 14px 38px;
+    border: 1px solid #ff6a6a;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.buy-btn:hover{
+    background: #f26376;
+    color: white;
+}
+.cart{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    max-width: 250px;
+    background: #5a5a5a;
+    display: flex; 
+    flex-direction: column;
+    color: #f26376;
+    border-radius: 5px;
+    padding: 5px;
+}
+.quantity{
+    align-self: center;
+    margin: 0px;
+    
+}
+.invisible {
+    display: none;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    font-size: 14px;
+}
+.cartProductTitle{
+    font-size: 16px;
+    margin: 0px;
+}
+.cartImg {
+   
+   margin: 5px;
+   border-radius: 5px;
+}
+
+.search-goods {
+    width: 120px;
+    height: 18px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fafafa;
+    font-size: 15px;
+    color: #fafafa;
+    
+}
+.search-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.search-button:hover {
+   color: #ff6a6a;
+}
+.product-bio{
+    display: flex;
+    align-items: center;
+}
+.del-btn{
+    font-size: 25px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
